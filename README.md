@@ -1,3 +1,3 @@
 # CMIS-Net
 
-![1234](framework.pdf)
+![1234](framework.jpg)
