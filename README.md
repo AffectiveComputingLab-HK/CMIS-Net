@@ -25,7 +25,7 @@ python train.py --feat_path /Path/to/your/features --label_path /Path/to/your/la
 
 ## Acknowledge
 This repository references the source code of the following paper：
-[ISNet]((https://github.com/tobefans/ISNet_SER))
+[ISNet](https://github.com/tobefans/ISNet_SER)
 
 ## Citation
 
