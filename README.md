@@ -5,7 +5,9 @@
 ![1234](framework.jpg)
 
 ## Dataset
-Our model was trained and validated on [MPIIGroupInteraction](https://multimediate-challenge.org/datasets/Dataset_MPII/) dataset. 
+Our model was trained and validated on [MPIIGroupInteraction](https://multimediate-challenge.org/datasets/Dataset_MPII/) dataset.  
+
+We specifically used the **backchannel agreement annotations** provided in the dataset to perform the **agreement estimation** task.
 
 ## Usage
 
