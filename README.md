@@ -1,12 +1,15 @@
 # CMIS-Net: A Cascaded Multi-Scale Individual Standardization Network for Backchannel Agreement Estimation
 
+CMIS-Net proposes a multi-scale approach for backchannel agreement estimation. The method performs individual standardization at both the frame-level and sequence-level, extracting individual-invariant features that are then used for more accurate backchannel agreement estimation.
+
 ![1234](framework.jpg)
 
 ## Dataset
 Our model was trained and validated on [MPIIGroupInteraction](https://multimediate-challenge.org/datasets/Dataset_MPII/) dataset. 
 
 ## Usage
-If you want to use our code for training, you need to use [OpenFace2.0](https://github.com/TadasBaltrusaitis/OpenFace) to extract facial keypoints for each frame in the video at first
+
+Before starting the training, make sure to extract facial keypoints from each video frame using [OpenFace2.0](https://github.com/TadasBaltrusaitis/OpenFace).
 
 To run the training you can call:
 
@@ -14,18 +17,20 @@ To run the training you can call:
 bash train.sh
 ```
 
-## References
+or 
+
+```
+python train.py --feat_path /Path/to/your/features --label_path /Path/to/your/labels
+```
+
+## Acknowledge
 This repository references the source code of the following paper：
+[ISNet]((https://github.com/tobefans/ISNet_SER))
+
+## Citation
+
+If you find our code useful in your research, please consider citing our paper:
 
 ```
-@article{fan2022isnet,
-  title={Isnet: Individual standardization network for speech emotion recognition},
-  author={Fan, Weiquan and Xu, Xiangmin and Cai, Bolun and Xing, Xiaofen},
-  journal={IEEE/ACM Transactions on Audio, Speech, and Language Processing},
-  volume={30},
-  pages={1803--1814},
-  year={2022},
-  publisher={IEEE}
-}
-```
 
+```
