@@ -1,0 +1,2 @@
+mode,translator_mode,model,feature_mode,selected_feature,preprocessing,ave_method,sle_noise,fle_noise,is_dynoise,is_visualbc,neu,edge,hidden_dim,batch_size,lr,num_layer,num_head,best_val_mse,best_ccc,best_Pearson_Correlation,best_Pearson_p-value,best_Kendall_Correlation,best_Kendall_p-value
+isnet,ED-LSTM,transformer,facial-only,all,subtract,temp_attn_mean,True,True,4,False,-1,0,256,32,0.01,6,4,0.057962,0.463757,0.550548,0.000000,0.408774,0.000000

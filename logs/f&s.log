@@ -1,0 +1,321 @@
+/home/eugene213/anaconda3/envs/ISNet/lib/python3.9/site-packages/torch/nn/modules/transformer.py:307: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+False
+False
+Total train samples: 3358
+Total val samples: 1427
+Feature dimension: 620
+3358
+3358
+Processed train samples: 3358
+Processed val samples: 1427
+Train speakers distribution: Counter({66: 4, 60: 3, 58: 2, 42: 2, 64: 2, 29: 2, 31: 2, 33: 2, 88: 2, 39: 2, 20: 2, 40: 2, 91: 1, 32: 1, 165: 1, 84: 1, 63: 1, 46: 1, 65: 1, 50: 1, 81: 1, 130: 1, 76: 1, 149: 1, 78: 1, 90: 1, 55: 1, 37: 1, 104: 1, 74: 1, 24: 1, 41: 1, 101: 1, 26: 1, 70: 1, 171: 1, 45: 1, 34: 1, 17: 1, 11: 1, 13: 1, 3: 1})
+Val speakers distribution: Counter({0: 21})
+TRAIN:: Epoch:  0 | Loss: 0.002 | mse: 0.069 | lr: 0.01000
+TEST :: Epoch:  0 | Loss: 0.003 | mse: 0.086 | lr: 0.01000
+best_val_mse: 0.08623694628477097 best_ccc: 0.00042996948660234895 best Pearson Correlation: 0.10224742055375888 best Pearson p-value: 0.00010918286909350455 best Kendall Correlation: 0.10104845148581003 best Kendall p-value: 3.770602749219921e-08
+TRAIN:: Epoch:  1 | Loss: 0.002 | mse: 0.058 | lr: 0.01000
+TEST :: Epoch:  1 | Loss: 0.003 | mse: 0.089 | lr: 0.01000
+best_val_mse: 0.08623694628477097 best_ccc: 0.00042996948660234895 best Pearson Correlation: 0.10224742055375888 best Pearson p-value: 0.00010918286909350455 best Kendall Correlation: 0.10104845148581003 best Kendall p-value: 3.770602749219921e-08
+TRAIN:: Epoch:  2 | Loss: 0.002 | mse: 0.057 | lr: 0.01000
+TEST :: Epoch:  2 | Loss: 0.003 | mse: 0.084 | lr: 0.01000
+best_val_mse: 0.08429474383592606 best_ccc: 0.0015768233603074275 best Pearson Correlation: 0.12594777962975184 best Pearson p-value: 1.8185680539823705e-06 best Kendall Correlation: 0.1079080771291798 best Kendall p-value: 4.234980118412947e-09
+TRAIN:: Epoch:  3 | Loss: 0.002 | mse: 0.058 | lr: 0.01000
+TEST :: Epoch:  3 | Loss: 0.003 | mse: 0.085 | lr: 0.01000
+best_val_mse: 0.08429474383592606 best_ccc: 0.0015768233603074275 best Pearson Correlation: 0.12594777962975184 best Pearson p-value: 1.8185680539823705e-06 best Kendall Correlation: 0.1079080771291798 best Kendall p-value: 4.234980118412947e-09
+TRAIN:: Epoch:  4 | Loss: 0.002 | mse: 0.051 | lr: 0.01000
+TEST :: Epoch:  4 | Loss: 0.002 | mse: 0.072 | lr: 0.01000
+best_val_mse: 0.07249455153942108 best_ccc: 0.3151014448707338 best Pearson Correlation: 0.4120925201950699 best Pearson p-value: 1.314119671935368e-59 best Kendall Correlation: 0.31449133335460644 best Kendall p-value: 1.0236591772068633e-65
+TRAIN:: Epoch:  5 | Loss: 0.001 | mse: 0.046 | lr: 0.01000
+TEST :: Epoch:  5 | Loss: 0.002 | mse: 0.066 | lr: 0.01000
+best_val_mse: 0.06633298099040985 best_ccc: 0.3236481640218473 best Pearson Correlation: 0.47908381363114355 best Pearson p-value: 9.13025605138311e-83 best Kendall Correlation: 0.3579725761673706 best Kendall p-value: 1.3651390746704125e-84
+TRAIN:: Epoch:  6 | Loss: 0.001 | mse: 0.046 | lr: 0.01000
+TEST :: Epoch:  6 | Loss: 0.002 | mse: 0.064 | lr: 0.01000
+best_val_mse: 0.064408078789711 best_ccc: 0.3544595823715398 best Pearson Correlation: 0.48188551057389883 best Pearson p-value: 7.495309018059497e-84 best Kendall Correlation: 0.35563461008307007 best Kendall p-value: 1.628586624142259e-83
+TRAIN:: Epoch:  7 | Loss: 0.001 | mse: 0.043 | lr: 0.01000
+TEST :: Epoch:  7 | Loss: 0.002 | mse: 0.069 | lr: 0.01000
+best_val_mse: 0.064408078789711 best_ccc: 0.3544595823715398 best Pearson Correlation: 0.48188551057389883 best Pearson p-value: 7.495309018059497e-84 best Kendall Correlation: 0.35563461008307007 best Kendall p-value: 1.628586624142259e-83
+TRAIN:: Epoch:  8 | Loss: 0.001 | mse: 0.043 | lr: 0.01000
+TEST :: Epoch:  8 | Loss: 0.002 | mse: 0.068 | lr: 0.01000
+best_val_mse: 0.064408078789711 best_ccc: 0.3544595823715398 best Pearson Correlation: 0.48188551057389883 best Pearson p-value: 7.495309018059497e-84 best Kendall Correlation: 0.35563461008307007 best Kendall p-value: 1.628586624142259e-83
+TRAIN:: Epoch:  9 | Loss: 0.001 | mse: 0.042 | lr: 0.01000
+TEST :: Epoch:  9 | Loss: 0.002 | mse: 0.064 | lr: 0.01000
+best_val_mse: 0.06353303045034409 best_ccc: 0.3853849728748378 best Pearson Correlation: 0.5022716672289034 best Pearson p-value: 4.607536053700089e-92 best Kendall Correlation: 0.3689583483211691 best Kendall p-value: 9.599736956087996e-90
+TRAIN:: Epoch:  10 | Loss: 0.001 | mse: 0.043 | lr: 0.01000
+TEST :: Epoch:  10 | Loss: 0.002 | mse: 0.064 | lr: 0.01000
+best_val_mse: 0.06353303045034409 best_ccc: 0.3853849728748378 best Pearson Correlation: 0.5022716672289034 best Pearson p-value: 4.607536053700089e-92 best Kendall Correlation: 0.3689583483211691 best Kendall p-value: 9.599736956087996e-90
+TRAIN:: Epoch:  11 | Loss: 0.001 | mse: 0.042 | lr: 0.01000
+TEST :: Epoch:  11 | Loss: 0.002 | mse: 0.063 | lr: 0.01000
+best_val_mse: 0.06294703483581543 best_ccc: 0.3988173952611301 best Pearson Correlation: 0.5074724895141903 best Pearson p-value: 3.0067098244097057e-94 best Kendall Correlation: 0.3724950608437765 best Kendall p-value: 1.9515315368569041e-91
+TRAIN:: Epoch:  12 | Loss: 0.001 | mse: 0.042 | lr: 0.01000
+TEST :: Epoch:  12 | Loss: 0.002 | mse: 0.064 | lr: 0.01000
+best_val_mse: 0.06294703483581543 best_ccc: 0.3988173952611301 best Pearson Correlation: 0.5074724895141903 best Pearson p-value: 3.0067098244097057e-94 best Kendall Correlation: 0.3724950608437765 best Kendall p-value: 1.9515315368569041e-91
+TRAIN:: Epoch:  13 | Loss: 0.001 | mse: 0.042 | lr: 0.01000
+TEST :: Epoch:  13 | Loss: 0.002 | mse: 0.064 | lr: 0.01000
+best_val_mse: 0.06294703483581543 best_ccc: 0.3988173952611301 best Pearson Correlation: 0.5074724895141903 best Pearson p-value: 3.0067098244097057e-94 best Kendall Correlation: 0.3724950608437765 best Kendall p-value: 1.9515315368569041e-91
+TRAIN:: Epoch:  14 | Loss: 0.001 | mse: 0.041 | lr: 0.01000
+TEST :: Epoch:  14 | Loss: 0.002 | mse: 0.064 | lr: 0.01000
+best_val_mse: 0.06294703483581543 best_ccc: 0.3988173952611301 best Pearson Correlation: 0.5074724895141903 best Pearson p-value: 3.0067098244097057e-94 best Kendall Correlation: 0.3724950608437765 best Kendall p-value: 1.9515315368569041e-91
+TRAIN:: Epoch:  15 | Loss: 0.001 | mse: 0.041 | lr: 0.01000
+TEST :: Epoch:  15 | Loss: 0.002 | mse: 0.062 | lr: 0.01000
+best_val_mse: 0.06179424747824669 best_ccc: 0.42963978339416453 best Pearson Correlation: 0.5294102567892323 best Pearson p-value: 6.783997518502508e-104 best Kendall Correlation: 0.39018272875283516 best Kendall p-value: 3.872024423988939e-100
+TRAIN:: Epoch:  16 | Loss: 0.001 | mse: 0.040 | lr: 0.01000
+TEST :: Epoch:  16 | Loss: 0.002 | mse: 0.060 | lr: 0.01000
+best_val_mse: 0.060206905007362366 best_ccc: 0.4432073503008409 best Pearson Correlation: 0.5310266985931222 best Pearson p-value: 1.2368666592984348e-104 best Kendall Correlation: 0.3908436814123125 best Kendall p-value: 1.7986950304858054e-100
+TRAIN:: Epoch:  17 | Loss: 0.001 | mse: 0.041 | lr: 0.01000
+TEST :: Epoch:  17 | Loss: 0.002 | mse: 0.059 | lr: 0.01000
+best_val_mse: 0.05910542607307434 best_ccc: 0.4474604006284555 best Pearson Correlation: 0.5383664962798577 best Pearson p-value: 4.842768440974021e-108 best Kendall Correlation: 0.3965225269951771 best Kendall p-value: 2.3496122331786127e-103
+TRAIN:: Epoch:  18 | Loss: 0.001 | mse: 0.040 | lr: 0.01000
+TEST :: Epoch:  18 | Loss: 0.002 | mse: 0.060 | lr: 0.01000
+best_val_mse: 0.05910542607307434 best_ccc: 0.4474604006284555 best Pearson Correlation: 0.5383664962798577 best Pearson p-value: 4.842768440974021e-108 best Kendall Correlation: 0.3965225269951771 best Kendall p-value: 2.3496122331786127e-103
+TRAIN:: Epoch:  19 | Loss: 0.001 | mse: 0.040 | lr: 0.01000
+TEST :: Epoch:  19 | Loss: 0.002 | mse: 0.060 | lr: 0.01000
+best_val_mse: 0.05910542607307434 best_ccc: 0.4474604006284555 best Pearson Correlation: 0.5383664962798577 best Pearson p-value: 4.842768440974021e-108 best Kendall Correlation: 0.3965225269951771 best Kendall p-value: 2.3496122331786127e-103
+TRAIN:: Epoch:  20 | Loss: 0.001 | mse: 0.039 | lr: 0.00100
+TEST :: Epoch:  20 | Loss: 0.002 | mse: 0.059 | lr: 0.00100
+best_val_mse: 0.05866808816790581 best_ccc: 0.44446375738946853 best Pearson Correlation: 0.5456699097230995 best Pearson p-value: 1.6225279916812703e-111 best Kendall Correlation: 0.40181508503003543 best Kendall p-value: 4.423058892236517e-106
+TRAIN:: Epoch:  21 | Loss: 0.001 | mse: 0.039 | lr: 0.00100
+TEST :: Epoch:  21 | Loss: 0.002 | mse: 0.059 | lr: 0.00100
+best_val_mse: 0.05863499268889427 best_ccc: 0.4475573547029361 best Pearson Correlation: 0.5470198104739741 best Pearson p-value: 3.618187641052734e-112 best Kendall Correlation: 0.4030548844285583 best Kendall p-value: 1.0049394339605567e-106
+TRAIN:: Epoch:  22 | Loss: 0.001 | mse: 0.039 | lr: 0.00100
+TEST :: Epoch:  22 | Loss: 0.002 | mse: 0.059 | lr: 0.00100
+best_val_mse: 0.05863499268889427 best_ccc: 0.4475573547029361 best Pearson Correlation: 0.5470198104739741 best Pearson p-value: 3.618187641052734e-112 best Kendall Correlation: 0.4030548844285583 best Kendall p-value: 1.0049394339605567e-106
+TRAIN:: Epoch:  23 | Loss: 0.001 | mse: 0.038 | lr: 0.00100
+TEST :: Epoch:  23 | Loss: 0.002 | mse: 0.058 | lr: 0.00100
+best_val_mse: 0.05830833315849304 best_ccc: 0.4545919640889405 best Pearson Correlation: 0.5469078061555122 best Pearson p-value: 4.0989950171871627e-112 best Kendall Correlation: 0.4031944644932926 best Kendall p-value: 8.502759191250881e-107
+TRAIN:: Epoch:  24 | Loss: 0.001 | mse: 0.039 | lr: 0.00100
+TEST :: Epoch:  24 | Loss: 0.002 | mse: 0.058 | lr: 0.00100
+best_val_mse: 0.05830833315849304 best_ccc: 0.4545919640889405 best Pearson Correlation: 0.5469078061555122 best Pearson p-value: 4.0989950171871627e-112 best Kendall Correlation: 0.4031944644932926 best Kendall p-value: 8.502759191250881e-107
+TRAIN:: Epoch:  25 | Loss: 0.001 | mse: 0.038 | lr: 0.00100
+TEST :: Epoch:  25 | Loss: 0.002 | mse: 0.058 | lr: 0.00100
+best_val_mse: 0.05830833315849304 best_ccc: 0.4545919640889405 best Pearson Correlation: 0.5469078061555122 best Pearson p-value: 4.0989950171871627e-112 best Kendall Correlation: 0.4031944644932926 best Kendall p-value: 8.502759191250881e-107
+TRAIN:: Epoch:  26 | Loss: 0.001 | mse: 0.038 | lr: 0.00100
+TEST :: Epoch:  26 | Loss: 0.002 | mse: 0.059 | lr: 0.00100
+best_val_mse: 0.05830833315849304 best_ccc: 0.4545919640889405 best Pearson Correlation: 0.5469078061555122 best Pearson p-value: 4.0989950171871627e-112 best Kendall Correlation: 0.4031944644932926 best Kendall p-value: 8.502759191250881e-107
+TRAIN:: Epoch:  27 | Loss: 0.001 | mse: 0.039 | lr: 0.00100
+TEST :: Epoch:  27 | Loss: 0.002 | mse: 0.059 | lr: 0.00100
+best_val_mse: 0.05830833315849304 best_ccc: 0.4545919640889405 best Pearson Correlation: 0.5469078061555122 best Pearson p-value: 4.0989950171871627e-112 best Kendall Correlation: 0.4031944644932926 best Kendall p-value: 8.502759191250881e-107
+TRAIN:: Epoch:  28 | Loss: 0.001 | mse: 0.038 | lr: 0.00100
+TEST :: Epoch:  28 | Loss: 0.002 | mse: 0.060 | lr: 0.00100
+best_val_mse: 0.05830833315849304 best_ccc: 0.4545919640889405 best Pearson Correlation: 0.5469078061555122 best Pearson p-value: 4.0989950171871627e-112 best Kendall Correlation: 0.4031944644932926 best Kendall p-value: 8.502759191250881e-107
+TRAIN:: Epoch:  29 | Loss: 0.001 | mse: 0.038 | lr: 0.00100
+TEST :: Epoch:  29 | Loss: 0.002 | mse: 0.058 | lr: 0.00100
+best_val_mse: 0.05826127156615257 best_ccc: 0.45127719483498446 best Pearson Correlation: 0.5494568793701292 best Pearson p-value: 2.3679376944747584e-113 best Kendall Correlation: 0.4072730760907511 best Kendall p-value: 6.275941202435984e-109
+TRAIN:: Epoch:  30 | Loss: 0.001 | mse: 0.038 | lr: 0.00100
+TEST :: Epoch:  30 | Loss: 0.002 | mse: 0.058 | lr: 0.00100
+best_val_mse: 0.05825408548116684 best_ccc: 0.4554214688389554 best Pearson Correlation: 0.5493697774593264 best Pearson p-value: 2.611317976058056e-113 best Kendall Correlation: 0.4069323365209584 best Kendall p-value: 9.475469590273947e-109
+TRAIN:: Epoch:  31 | Loss: 0.001 | mse: 0.038 | lr: 0.00100
+TEST :: Epoch:  31 | Loss: 0.002 | mse: 0.058 | lr: 0.00100
+best_val_mse: 0.05822925642132759 best_ccc: 0.45352183783222644 best Pearson Correlation: 0.5509915163906267 best Pearson p-value: 4.20430379170266e-114 best Kendall Correlation: 0.4085251913773387 best Kendall p-value: 1.376936100499037e-109
+TRAIN:: Epoch:  32 | Loss: 0.001 | mse: 0.038 | lr: 0.00100
+TEST :: Epoch:  32 | Loss: 0.002 | mse: 0.059 | lr: 0.00100
+best_val_mse: 0.05822925642132759 best_ccc: 0.45352183783222644 best Pearson Correlation: 0.5509915163906267 best Pearson p-value: 4.20430379170266e-114 best Kendall Correlation: 0.4085251913773387 best Kendall p-value: 1.376936100499037e-109
+TRAIN:: Epoch:  33 | Loss: 0.001 | mse: 0.038 | lr: 0.00100
+TEST :: Epoch:  33 | Loss: 0.002 | mse: 0.059 | lr: 0.00100
+best_val_mse: 0.05822925642132759 best_ccc: 0.45352183783222644 best Pearson Correlation: 0.5509915163906267 best Pearson p-value: 4.20430379170266e-114 best Kendall Correlation: 0.4085251913773387 best Kendall p-value: 1.376936100499037e-109
+TRAIN:: Epoch:  34 | Loss: 0.001 | mse: 0.038 | lr: 0.00100
+TEST :: Epoch:  34 | Loss: 0.002 | mse: 0.058 | lr: 0.00100
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  35 | Loss: 0.001 | mse: 0.038 | lr: 0.00100
+TEST :: Epoch:  35 | Loss: 0.002 | mse: 0.059 | lr: 0.00100
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  36 | Loss: 0.001 | mse: 0.038 | lr: 0.00100
+TEST :: Epoch:  36 | Loss: 0.002 | mse: 0.059 | lr: 0.00100
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  37 | Loss: 0.001 | mse: 0.038 | lr: 0.00100
+TEST :: Epoch:  37 | Loss: 0.002 | mse: 0.062 | lr: 0.00100
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  38 | Loss: 0.001 | mse: 0.038 | lr: 0.00100
+TEST :: Epoch:  38 | Loss: 0.002 | mse: 0.058 | lr: 0.00100
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  39 | Loss: 0.001 | mse: 0.038 | lr: 0.00100
+TEST :: Epoch:  39 | Loss: 0.002 | mse: 0.058 | lr: 0.00100
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  40 | Loss: 0.001 | mse: 0.037 | lr: 0.00010
+TEST :: Epoch:  40 | Loss: 0.002 | mse: 0.058 | lr: 0.00010
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  41 | Loss: 0.001 | mse: 0.037 | lr: 0.00010
+TEST :: Epoch:  41 | Loss: 0.002 | mse: 0.058 | lr: 0.00010
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  42 | Loss: 0.001 | mse: 0.038 | lr: 0.00010
+TEST :: Epoch:  42 | Loss: 0.002 | mse: 0.058 | lr: 0.00010
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  43 | Loss: 0.001 | mse: 0.037 | lr: 0.00010
+TEST :: Epoch:  43 | Loss: 0.002 | mse: 0.058 | lr: 0.00010
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  44 | Loss: 0.001 | mse: 0.037 | lr: 0.00010
+TEST :: Epoch:  44 | Loss: 0.002 | mse: 0.058 | lr: 0.00010
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  45 | Loss: 0.001 | mse: 0.037 | lr: 0.00010
+TEST :: Epoch:  45 | Loss: 0.002 | mse: 0.058 | lr: 0.00010
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  46 | Loss: 0.001 | mse: 0.037 | lr: 0.00010
+TEST :: Epoch:  46 | Loss: 0.002 | mse: 0.058 | lr: 0.00010
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  47 | Loss: 0.001 | mse: 0.038 | lr: 0.00010
+TEST :: Epoch:  47 | Loss: 0.002 | mse: 0.058 | lr: 0.00010
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  48 | Loss: 0.001 | mse: 0.037 | lr: 0.00010
+TEST :: Epoch:  48 | Loss: 0.002 | mse: 0.058 | lr: 0.00010
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  49 | Loss: 0.001 | mse: 0.037 | lr: 0.00010
+TEST :: Epoch:  49 | Loss: 0.002 | mse: 0.058 | lr: 0.00010
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  50 | Loss: 0.001 | mse: 0.037 | lr: 0.00010
+TEST :: Epoch:  50 | Loss: 0.002 | mse: 0.058 | lr: 0.00010
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  51 | Loss: 0.001 | mse: 0.037 | lr: 0.00010
+TEST :: Epoch:  51 | Loss: 0.002 | mse: 0.058 | lr: 0.00010
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  52 | Loss: 0.001 | mse: 0.037 | lr: 0.00010
+TEST :: Epoch:  52 | Loss: 0.002 | mse: 0.059 | lr: 0.00010
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  53 | Loss: 0.001 | mse: 0.037 | lr: 0.00010
+TEST :: Epoch:  53 | Loss: 0.002 | mse: 0.058 | lr: 0.00010
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  54 | Loss: 0.001 | mse: 0.037 | lr: 0.00010
+TEST :: Epoch:  54 | Loss: 0.002 | mse: 0.059 | lr: 0.00010
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  55 | Loss: 0.001 | mse: 0.037 | lr: 0.00010
+TEST :: Epoch:  55 | Loss: 0.002 | mse: 0.058 | lr: 0.00010
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  56 | Loss: 0.001 | mse: 0.037 | lr: 0.00010
+TEST :: Epoch:  56 | Loss: 0.002 | mse: 0.058 | lr: 0.00010
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  57 | Loss: 0.001 | mse: 0.037 | lr: 0.00010
+TEST :: Epoch:  57 | Loss: 0.002 | mse: 0.058 | lr: 0.00010
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  58 | Loss: 0.001 | mse: 0.037 | lr: 0.00010
+TEST :: Epoch:  58 | Loss: 0.002 | mse: 0.058 | lr: 0.00010
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  59 | Loss: 0.001 | mse: 0.037 | lr: 0.00010
+TEST :: Epoch:  59 | Loss: 0.002 | mse: 0.058 | lr: 0.00010
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  60 | Loss: 0.001 | mse: 0.037 | lr: 0.00001
+TEST :: Epoch:  60 | Loss: 0.002 | mse: 0.058 | lr: 0.00001
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  61 | Loss: 0.001 | mse: 0.037 | lr: 0.00001
+TEST :: Epoch:  61 | Loss: 0.002 | mse: 0.058 | lr: 0.00001
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  62 | Loss: 0.001 | mse: 0.037 | lr: 0.00001
+TEST :: Epoch:  62 | Loss: 0.002 | mse: 0.058 | lr: 0.00001
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  63 | Loss: 0.001 | mse: 0.037 | lr: 0.00001
+TEST :: Epoch:  63 | Loss: 0.002 | mse: 0.058 | lr: 0.00001
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  64 | Loss: 0.001 | mse: 0.037 | lr: 0.00001
+TEST :: Epoch:  64 | Loss: 0.002 | mse: 0.058 | lr: 0.00001
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  65 | Loss: 0.001 | mse: 0.037 | lr: 0.00001
+TEST :: Epoch:  65 | Loss: 0.002 | mse: 0.058 | lr: 0.00001
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  66 | Loss: 0.001 | mse: 0.037 | lr: 0.00001
+TEST :: Epoch:  66 | Loss: 0.002 | mse: 0.058 | lr: 0.00001
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  67 | Loss: 0.001 | mse: 0.037 | lr: 0.00001
+TEST :: Epoch:  67 | Loss: 0.002 | mse: 0.058 | lr: 0.00001
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  68 | Loss: 0.001 | mse: 0.037 | lr: 0.00001
+TEST :: Epoch:  68 | Loss: 0.002 | mse: 0.058 | lr: 0.00001
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  69 | Loss: 0.001 | mse: 0.037 | lr: 0.00001
+TEST :: Epoch:  69 | Loss: 0.002 | mse: 0.058 | lr: 0.00001
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  70 | Loss: 0.001 | mse: 0.037 | lr: 0.00001
+TEST :: Epoch:  70 | Loss: 0.002 | mse: 0.058 | lr: 0.00001
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  71 | Loss: 0.001 | mse: 0.037 | lr: 0.00001
+TEST :: Epoch:  71 | Loss: 0.002 | mse: 0.058 | lr: 0.00001
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  72 | Loss: 0.001 | mse: 0.037 | lr: 0.00001
+TEST :: Epoch:  72 | Loss: 0.002 | mse: 0.058 | lr: 0.00001
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  73 | Loss: 0.001 | mse: 0.037 | lr: 0.00001
+TEST :: Epoch:  73 | Loss: 0.002 | mse: 0.058 | lr: 0.00001
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  74 | Loss: 0.001 | mse: 0.037 | lr: 0.00001
+TEST :: Epoch:  74 | Loss: 0.002 | mse: 0.058 | lr: 0.00001
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  75 | Loss: 0.001 | mse: 0.037 | lr: 0.00001
+TEST :: Epoch:  75 | Loss: 0.002 | mse: 0.058 | lr: 0.00001
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  76 | Loss: 0.001 | mse: 0.037 | lr: 0.00001
+TEST :: Epoch:  76 | Loss: 0.002 | mse: 0.058 | lr: 0.00001
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  77 | Loss: 0.001 | mse: 0.037 | lr: 0.00001
+TEST :: Epoch:  77 | Loss: 0.002 | mse: 0.058 | lr: 0.00001
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  78 | Loss: 0.001 | mse: 0.037 | lr: 0.00001
+TEST :: Epoch:  78 | Loss: 0.002 | mse: 0.058 | lr: 0.00001
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  79 | Loss: 0.001 | mse: 0.037 | lr: 0.00001
+TEST :: Epoch:  79 | Loss: 0.002 | mse: 0.058 | lr: 0.00001
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  80 | Loss: 0.001 | mse: 0.037 | lr: 0.00000
+TEST :: Epoch:  80 | Loss: 0.002 | mse: 0.058 | lr: 0.00000
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  81 | Loss: 0.001 | mse: 0.038 | lr: 0.00000
+TEST :: Epoch:  81 | Loss: 0.002 | mse: 0.058 | lr: 0.00000
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  82 | Loss: 0.001 | mse: 0.037 | lr: 0.00000
+TEST :: Epoch:  82 | Loss: 0.002 | mse: 0.058 | lr: 0.00000
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  83 | Loss: 0.001 | mse: 0.037 | lr: 0.00000
+TEST :: Epoch:  83 | Loss: 0.002 | mse: 0.058 | lr: 0.00000
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  84 | Loss: 0.001 | mse: 0.037 | lr: 0.00000
+TEST :: Epoch:  84 | Loss: 0.002 | mse: 0.058 | lr: 0.00000
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  85 | Loss: 0.001 | mse: 0.037 | lr: 0.00000
+TEST :: Epoch:  85 | Loss: 0.002 | mse: 0.058 | lr: 0.00000
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  86 | Loss: 0.001 | mse: 0.037 | lr: 0.00000
+TEST :: Epoch:  86 | Loss: 0.002 | mse: 0.058 | lr: 0.00000
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  87 | Loss: 0.001 | mse: 0.037 | lr: 0.00000
+TEST :: Epoch:  87 | Loss: 0.002 | mse: 0.058 | lr: 0.00000
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  88 | Loss: 0.001 | mse: 0.037 | lr: 0.00000
+TEST :: Epoch:  88 | Loss: 0.002 | mse: 0.058 | lr: 0.00000
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  89 | Loss: 0.001 | mse: 0.037 | lr: 0.00000
+TEST :: Epoch:  89 | Loss: 0.002 | mse: 0.058 | lr: 0.00000
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  90 | Loss: 0.001 | mse: 0.037 | lr: 0.00000
+TEST :: Epoch:  90 | Loss: 0.002 | mse: 0.058 | lr: 0.00000
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  91 | Loss: 0.001 | mse: 0.037 | lr: 0.00000
+TEST :: Epoch:  91 | Loss: 0.002 | mse: 0.058 | lr: 0.00000
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  92 | Loss: 0.001 | mse: 0.037 | lr: 0.00000
+TEST :: Epoch:  92 | Loss: 0.002 | mse: 0.058 | lr: 0.00000
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  93 | Loss: 0.001 | mse: 0.037 | lr: 0.00000
+TEST :: Epoch:  93 | Loss: 0.002 | mse: 0.058 | lr: 0.00000
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  94 | Loss: 0.001 | mse: 0.037 | lr: 0.00000
+TEST :: Epoch:  94 | Loss: 0.002 | mse: 0.058 | lr: 0.00000
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  95 | Loss: 0.001 | mse: 0.037 | lr: 0.00000
+TEST :: Epoch:  95 | Loss: 0.002 | mse: 0.058 | lr: 0.00000
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  96 | Loss: 0.001 | mse: 0.037 | lr: 0.00000
+TEST :: Epoch:  96 | Loss: 0.002 | mse: 0.058 | lr: 0.00000
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  97 | Loss: 0.001 | mse: 0.037 | lr: 0.00000
+TEST :: Epoch:  97 | Loss: 0.002 | mse: 0.058 | lr: 0.00000
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  98 | Loss: 0.001 | mse: 0.037 | lr: 0.00000
+TEST :: Epoch:  98 | Loss: 0.002 | mse: 0.058 | lr: 0.00000
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+TRAIN:: Epoch:  99 | Loss: 0.001 | mse: 0.037 | lr: 0.00000
+TEST :: Epoch:  99 | Loss: 0.002 | mse: 0.058 | lr: 0.00000
+best_val_mse: 0.05796172842383385 best_ccc: 0.4637574197793184 best Pearson Correlation: 0.5505476440417809 best Pearson p-value: 6.937739504857626e-114 best Kendall Correlation: 0.4087735617866455 best Kendall p-value: 1.0185945132661375e-109
+0.05796173
+model_id: isnet_facial-only_all_neu-1.0_edge0.0_lr0.01_bs32_nl6_nh4
+final_best_val_mse: 0.057962
+final_best_ccc: 0.463757
+final_best_Pearson_Correlation: 0.550548
+final_best_Pearson_p-value: 0.000000
+final_best_Kendall_Correlation: 0.408774
+final_best_Kendall_p-value: 0.000000
