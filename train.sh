@@ -84,4 +84,4 @@ BEST_KENDALL_P=$(grep "final_best_Kendall_p-value:" $LOG_FILE | awk '{print $2}'
 # 写入CSV
 echo "$MODE,$TRANSLATOR_MODE,$MODEL,$FEATURE_MODE,$SELECTED_FEATURE,$PREPROCESSING,$AVE_METHOD,$SLE_NOISE,$FLE_NOISE,$IS_DYNOISE,$IS_VISUALBC,$NEU,$EDGE,$HIDDEN_DIM,$BATCH_SIZE,$LR,$NUM_LAYER,$NUM_HEAD,$BEST_MSE,$BEST_CCC,$BEST_PEARSON,$BEST_PEARSON_P,$BEST_KENDALL,$BEST_KENDALL_P" >> $RESULTS_CSV
 
-echo "✅ Single experiment completed. Results saved to $RESULTS_CSV"
+echo "Single experiment completed. Results saved to $RESULTS_CSV"
