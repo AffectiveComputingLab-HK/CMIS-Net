@@ -3,7 +3,7 @@
 **CMIS-Net** proposes a multi-scale approach for backchannel agreement estimation. The method performs individual standardization at both the frame-level and sequence-level, extracting individual-invariant features that are then used for more accurate backchannel agreement estimation.
 [Paper](https://arxiv.org/abs/2510.17855)
 
-![1234](framework.jpg)
+![1234](framework.png)
 
 ## Dataset
 Our model was trained and validated on [MPIIGroupInteraction](https://multimediate-challenge.org/datasets/Dataset_MPII/) dataset.  
