@@ -1,6 +1,7 @@
-# CMIS-Net: A Cascaded Multi-Scale Individual Standardization Network for Backchannel Agreement Estimation
+## CMIS-Net: A Cascaded Multi-Scale Individual Standardization Network for Backchannel Agreement Estimation
 
 **CMIS-Net** proposes a multi-scale approach for backchannel agreement estimation. The method performs individual standardization at both the frame-level and sequence-level, extracting individual-invariant features that are then used for more accurate backchannel agreement estimation.
+[Paper](https://arxiv.org/abs/2510.17855)
 
 ![1234](framework.jpg)
 
@@ -34,5 +35,10 @@ This repository references the source code of the following paper：
 If you find our code useful in your research, please consider citing our paper:
 
 ```
-
+@article{huang2025cmis,
+  title={CMIS-Net: A Cascaded Multi-Scale Individual Standardization Network for Backchannel Agreement Estimation},
+  author={Huang, Yuxuan and Wang, Kangzhong and Fu, Eugene Yujun and Ngai, Grace and Ng, Peter HF},
+  journal={arXiv preprint arXiv:2510.17855},
+  year={2025}
+}
 ```
