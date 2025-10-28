@@ -5,6 +5,8 @@
 
 ![1234](framework.png)
 
+Figure 1: Overview of the CMIS-Net architecture (a), utilizing two cascaded standardization modules: 1.Frame-level standardization (b) extracts instant dynamic features while considering individual-specific variations from each frame; and 2. Sequence-level standardization captures temporal patterns across frames while further disentangling person-specific characteristics. Video inputs are processed through both modules sequentially to obtain generalizable representations for backchannel agreement estimation.
+
 ## Dataset
 Our model was trained and validated on [MPIIGroupInteraction](https://multimediate-challenge.org/datasets/Dataset_MPII/) dataset.  
 
